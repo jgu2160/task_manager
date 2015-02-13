@@ -2,6 +2,8 @@ require_relative '../test_helper'
 require 'minitest/pride'
 
 class FrontPageTest < FeatureTest
+  def teardown;end
+
   def test_user_sees_greeting
   	visit '/'
   	assert page.has_content?("Welcome to t-manager")

@@ -1,6 +1,7 @@
 require_relative '../test_helper'
 
 class UserDeletesTaskTest < FeatureTest
+  def teardown; end
   def test_user_deletes_a_task
     visit '/'
     click_link_or_button('New Index')

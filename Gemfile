@@ -11,4 +11,5 @@ group :test do
   gem 'minitest'
   gem'capybara'
   gem 'launchy'
+  gem 'byebug'
 end
